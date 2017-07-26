@@ -71,6 +71,9 @@ doesn't throw any errors but produces a container only usable by root. Whilst
 clearly the initial error is the user's fault singularity should error instead
 of carrying on.
 
+Note: This can't be reproduced in this vagrant machine as singularity is
+globablly installed.
+
 ### Creation with --debug
 
 ```

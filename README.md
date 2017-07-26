@@ -43,7 +43,7 @@ Bootstrap: docker
 From: centos:centos6
 
 $ module load singularity
-$ sudo $(which singularity) create borked.img
+$ singularity create borked.img
 $ sudo $(which singularity) bootstrap borked.img dock.def
 ```
 

@@ -1,0 +1,1049 @@
+# file: share/apps/centos7/singularity/2.3.1
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/include
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/include/singularity
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/include/singularity/runtime.h
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/include/singularity/image.h
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/bin
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/bin/run-singularity
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/bin/singularity
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/bootstrap
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/create-suid
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/get-section
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/expand-suid
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/import-suid
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/import
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/export-suid
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/action-suid
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/create
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/expand
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/action
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/cleanupd
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/export
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/mount-suid
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/copy
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bin/mount
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/deffile-driver-zypper.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/deffile-driver-debootstrap.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/environment.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/deffile-driver-yum.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/environment.tar
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/pre.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/main-dockerhub.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/deffile-driver-docker.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/main-null.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/deffile-sections.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/deffile-post.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/post.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/deffile-driver-arch.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/main-deffile.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/bootstrap-scripts/deffile-driver-busybox.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/templates.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/base.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/message.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/sutils.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/import.py
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/__init__.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/size.py
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/templates.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/pull.py
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/docker
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/docker/main.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/docker/tasks.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/docker/__init__.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/docker/main.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/docker/tasks.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/docker/api.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/docker/__init__.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/docker/api.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/defaults.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/base.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/defaults.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/sutils.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/message.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/shub
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/shub/__init__.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/shub/main.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/shub/api.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/shell.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers/__init__.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers/__init__.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers/json
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers/json/main.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers/json/delete.py
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers/json/__init__.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers/json/main.py
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers/json/add.py
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers/json/get.py
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers/json/__init__.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers/json/dump.py
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/helpers/json/inspect.py
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/python/shell.pyc
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/functions
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/helpers
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/helpers/inspect.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/selftest.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/mount.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/inspect.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/import.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/shell.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/pull.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/test.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/expand.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/test.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/export.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/run.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/action_argparser.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/create.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/shell.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/copy.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/inspect.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/exec.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/export.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/exec.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/create.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/mount.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/singularity.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/pull.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/bootstrap.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/copy.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/expand.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/bootstrap.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/run.exec
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/cli/import.help
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/libexec/singularity/image-handler.sh
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/etc
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/etc/bash_completion.d
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/etc/bash_completion.d/singularity
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/etc/singularity
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/etc/singularity/default-nsswitch.conf
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/etc/singularity/init
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/etc/singularity/singularity.conf
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/lib
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/lib/singularity
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/lib/singularity/libsingularity-image.la
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/lib/singularity/libsingularity-runtime.a
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/lib/singularity/libsingularity-image.so.1.0.0
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/lib/singularity/libsingularity-image.a
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/lib/singularity/libsingularity-runtime.so.1.0.0
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/lib/singularity/libsingularity-runtime.la
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/share
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/share/man
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/share/man/man1
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/share/man/man1/singularity.1
+# owner: root
+# group: users
+user::rw-
+group::r--
+other::r--
+
+# file: share/apps/centos7/singularity/2.3.1/var
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/var/singularity
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/var/singularity/mnt
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/var/singularity/mnt/session
+# owner: root
+# group: root
+# flags: --t
+user::rwx
+group::rwx
+other::rwx
+
+# file: share/apps/centos7/singularity/2.3.1/var/singularity/mnt/container
+# owner: root
+# group: users
+user::rwx
+group::r-x
+other::r-x
+
+# file: share/apps/centos7/singularity/2.3.1/var/singularity/mnt/overlay
+# owner: root
+# group: users
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+

@@ -12,14 +12,9 @@ yum install epel-release -y
 rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
 yum install debootstrap -y
 
-# Download and install singularity
-git clone https://github.com/singularityware/singularity.git
-cd singularity
-./autogen.sh
-./configure --prefix=/usr --sysconfdir=/etc
-make
-make install
-
-# Cleanup
-cd ..
-rm -rf ./singularity
+# Install singularity
+cp ./singularity-containers/install.tgz .
+tar -xzvf install.tgz
+rm install.tgz
+setfacl --restore=./singularity-containers/facl
+mv share /

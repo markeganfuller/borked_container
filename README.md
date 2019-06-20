@@ -1,7 +1,7 @@
 # borked container
 
 Broken singularity install that creates containers that will only work when run
-as root.
+as root. Fixed as part of issue https://github.com/sylabs/singularity/issues/835
 
 ## Running
 
